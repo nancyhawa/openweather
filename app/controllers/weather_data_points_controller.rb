@@ -7,8 +7,6 @@ class WeatherDataPointsController < ApplicationController
 	def create
 
 		weather_data = OpenWeather::get_weather_by_zipcode(params[:weather_data_point][:zipcode])
-		puts "weather_data"
-		puts weather_data
 		if !weather_data
 			flash.now[:alert] = "Invalid input"
 	     	render "new"

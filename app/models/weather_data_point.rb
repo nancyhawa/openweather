@@ -2,8 +2,6 @@ class WeatherDataPoint < ApplicationRecord
 	
 	# Consumes the JSON returned from the Openweather API
 	def self.new_from_open_weather_data(data)
-		puts "data:"
-		puts data
 		WeatherDataPoint.new({
 			:zipcode => data["zipcode"],
 			:description => data["weather"][0]["description"],
