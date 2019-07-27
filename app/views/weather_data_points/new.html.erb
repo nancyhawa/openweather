@@ -1,0 +1,11 @@
+<h1>Welcome#index</h1>
+
+<%= form_for WeatherDataPoint.new, url: {action: "create"}, html: {class: "zip_code_search"} do |f| %>
+    <%= f.label :zipcode %>
+    <%= f.text_field :zipcode %>
+    <%= f.submit "Submit" %>
+<% end %>
+
+<% @weather_data_points.each do |wdp| %>
+	<%= wdp.description %>
+<% end %>

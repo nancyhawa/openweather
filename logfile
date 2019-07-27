@@ -1,0 +1,16 @@
+2019-07-27 14:08:07.259 CDT [19981] LOG:  listening on IPv6 address "::1", port 5432
+2019-07-27 14:08:07.259 CDT [19981] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2019-07-27 14:08:07.260 CDT [19981] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2019-07-27 14:08:07.271 CDT [19982] LOG:  database system was shut down at 2019-07-27 14:07:16 CDT
+2019-07-27 14:08:07.273 CDT [19981] LOG:  database system is ready to accept connections
+2019-07-27 14:08:46.924 CDT [20004] FATAL:  role "openweather" does not exist
+2019-07-27 14:20:59.762 CDT [30248] FATAL:  database "nancy" does not exist
+2019-07-27 14:22:15.697 CDT [30254] FATAL:  role "postgrrs" does not exist
+2019-07-27 14:22:18.144 CDT [30256] FATAL:  role "postgres" does not exist
+2019-07-27 14:22:30.622 CDT [30258] FATAL:  database "nancy" does not exist
+2019-07-27 14:22:43.883 CDT [30260] FATAL:  database "nancy" does not exist
+2019-07-27 14:24:55.647 CDT [30274] FATAL:  role "postgres" does not exist
+2019-07-27 14:32:44.938 CDT [19981] LOG:  received smart shutdown request
+2019-07-27 14:32:44.943 CDT [19981] LOG:  background worker "logical replication launcher" (PID 19988) exited with exit code 1
+2019-07-27 14:32:44.943 CDT [19983] LOG:  shutting down
+2019-07-27 14:32:44.947 CDT [19981] LOG:  database system is shut down

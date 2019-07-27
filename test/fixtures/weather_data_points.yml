@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  zipcode: MyString
+  description: MyText
+  temperature: 9.99
+  wind_speed: 9.99
+  wind_direction: 9.99
+  humidity: 9.99
+  city: MyString
+  timestamp: 2019-07-27 14:46:51
+
+two:
+  zipcode: MyString
+  description: MyText
+  temperature: 9.99
+  wind_speed: 9.99
+  wind_direction: 9.99
+  humidity: 9.99
+  city: MyString
+  timestamp: 2019-07-27 14:46:51
